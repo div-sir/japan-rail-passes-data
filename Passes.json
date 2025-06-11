@@ -57,7 +57,7 @@
     },
     {
   "id": "jrpass_east",
-  "name": "JR EAST PASS (Tohoku area)",
+  "name": "JR 東日本周遊券（東北地區）",
   "company": "JR東日本",
   "category": "jr_regional",
   "areas": ["東北", "東京周邊"],
