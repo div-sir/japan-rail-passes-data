@@ -56,49 +56,48 @@
       ]
     },
     {
-      "id": "jrpass_east",
-      "name": "JR Pass 東日本",
-      "company": "JR東日本",
-      "category": "jr_regional",
-      "areas": [
-        "東日本"
-      ],
-      "extensions": [],
-      "file": {
-        "type": "pdf",
-        "path": "JR Pass東日本.pdf"
-      },
-      "durations": [
-        {
-          "days": 5,
-          "price": 20000,
-          "greenPrice": null,
-          "description": "5 天內無限次搭乘 JR 東日本區域列車 (Hayabusa/Hayate 不適用)。"
-        },
-        {
-          "days": 10,
-          "price": 32000,
-          "greenPrice": null,
-          "description": "10 天內無限次搭乘 JR 東日本區域列車 (Hayabusa/Hayate 不適用)。"
-        }
-      ],
-      "availableTrains": [
-        "【新幹線】東北新幹線 (東京〜盛岡) ※Hayabusa・Hayate 不適用",
-        "【新幹線】山形新幹線 (福島〜新庄)",
-        "【新幹線】秋田新幹線 (盛岡〜秋田)",
-        "【新幹線】上越新幹線 (東京〜新潟)",
-        "【新幹線】北陸新幹線 (東京〜上越妙高)",
-        "【JR在來線】東北本線・常磐線・磐越西線・信越本線・總武線 快速/普通/特急",
-        "【特急】踊り子 (東京〜伊豆) 自由席",
-        "【JR 巴士】JR 巴士關東 水戶·日光·茨城部分一般路線"
-      ],
-      "unavailableTrains": [
-        "【新幹線】Hayabusa・Hayate (盛岡〜新青森)",
-        "【新幹線】東海道・山陽・九州",
-        "【私鐵／地鐵】全線",
-        "【高速／夜行巴士】全線"
-      ]
+  "id": "jrpass_east",
+  "name": "JR EAST PASS (Tohoku area)",
+  "company": "JR東日本",
+  "category": "jr_regional",
+  "areas": ["東北", "東京周邊"],
+  "extensions": [],
+  "file": {
+    "type": "pdf",
+    "path": "JR_EAST_PASS_Tohoku_area.pdf"
+  },
+  "durations": [
+    {
+      "days": 5,
+      "price": 30000,
+      "greenPrice": null,
+      "description": "自啟用日起「連續」5 天內，可無限次搭乘適用區域內列車（普通車指定席）。"
     },
+    {
+      "days": 10,
+      "price": 48000,
+      "greenPrice": null,
+      "description": "自啟用日起「連續」10 天內，可無限次搭乘適用區域內列車（普通車指定席）。"
+    }
+  ],
+  "availableTrains": [
+    "【新幹線】東北新幹線 (東京〜新青森) ※含 Hayabusa・Hayate・Yamabiko",
+    "【新幹線】山形新幹線 (福島〜新庄)",
+    "【新幹線】秋田新幹線 (盛岡〜秋田) ※含 Komachi",
+    "【新幹線】上越新幹線 (東京〜新潟)",
+    "【新幹線】北陸新幹線 (東京〜上越妙高)",
+    "【JR 在來線】JR 東日本一般/快速/特急列車（含 BRT）",
+    "【第三部門】IGR 岩手銀河鐵道・青い森鐵道・伊豆急行",
+    "【私鐵直通特急】Nikko／Kinugawa／SPACIA Kinugawa（JR⇄東武直通）",
+    "【其他】東京單軌電車、JR 巴士（高速巴士及部分路線除外）"
+  ],
+  "unavailableTrains": [
+    "【新幹線】東海道・山陽・九州新幹線",
+    "【私鐵／地鐵】（除特定直通特急外）",
+    "【高速／夜行巴士】全線",
+    "Green Car・GranClass（需另付費）"
+  ]
+},
     {
       "id": "jr_kansai_area",
       "name": "關西地區鐵路周遊券",
