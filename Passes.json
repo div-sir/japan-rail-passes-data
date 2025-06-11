@@ -81,7 +81,7 @@
     }
   ],
   "availableTrains": [
-    "【新幹線】東北新幹線 (東京〜新青森) ※含 Hayabusa・Hayate・Yamabiko",
+    "【新幹線】新幹線 (東京〜新青森) ※含 Hayabusa・Hayate・Yamabiko",
     "【新幹線】山形新幹線 (福島〜新庄)",
     "【新幹線】秋田新幹線 (盛岡〜秋田) ※含 Komachi",
     "【新幹線】上越新幹線 (東京〜新潟)",
@@ -947,43 +947,10 @@
         "【地鐵／私鐵】全線"
       ]
     },
-    {
-      "id": "tohoku_pass",
-      "name": "東北周遊券",
-      "company": "JR東日本",
-      "category": "jr_regional",
-      "areas": [
-        "東北"
-      ],
-      "extensions": [],
-      "file": {
-        "type": "pdf",
-        "path": "東北周遊券.pdf"
-      },
-      "durations": [
-        {
-          "days": 5,
-          "price": 30000,
-          "greenPrice": null,
-          "description": "5 天；東北新幹線 東京~新青森 + 山形/秋田新幹線 + 東北地區 JR 在來線 無限次 (指定席 4 次)。"
-        }
-      ],
-      "availableTrains": [
-        "【新幹線】東北 (東京〜新青森) Hayabusa/Hayate/やまびこ 自由/指定 共 4 次",
-        "【新幹線】秋田 (盛岡〜秋田) こまち 自由/指定",
-        "【新幹線】山形 (福島〜新庄) つばさ 自由/指定",
-        "【JR在來線】東北本線・磐越西線・羽越本線・奧羽本線 等 普通／快速／特急 (如 いなほ) 自由席"
-      ],
-      "unavailableTrains": [
-        "【新幹線】東海道・山陽・北海道",
-        "【GREEN 車廂】Green/GranClass",
-        "【私鐵・地鐵】青い森鐵道・IGR 等",
-        "【特急】指定席超過 4 次 須補差額"
-      ]
-    },
+    
     {
       "id": "nagano_niigata_pass",
-      "name": "長野、新瀉周遊券",
+      "name": "JR東日本周遊券（長野、新瀉）",
       "company": "JR東日本",
       "category": "jr_regional",
       "areas": [
