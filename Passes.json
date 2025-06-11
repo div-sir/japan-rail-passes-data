@@ -77,11 +77,11 @@
       "days": 10,
       "price": 48000,
       "greenPrice": null,
-      "description": "自啟用日起「連續」10 天內，可無限次搭乘適用區域內列車（普通車指定席）。"
+      "description": "自啟用日起「連續」10 天內，可無限次搭乘適用區域內列車（普通車指定席），2025-05-15 起開始販售。"
     }
   ],
   "availableTrains": [
-    "【新幹線】新幹線 (東京〜新青森) ※含 Hayabusa・Hayate・Yamabiko",
+    "【新幹線】東北新幹線 (東京〜新青森) ※含 Hayabusa・Hayate・Yamabiko",
     "【新幹線】山形新幹線 (福島〜新庄)",
     "【新幹線】秋田新幹線 (盛岡〜秋田) ※含 Komachi",
     "【新幹線】上越新幹線 (東京〜新潟)",
@@ -998,7 +998,7 @@
       "durations": [
         {
           "days": 6,
-          "price": 35370,
+          "price": 28,000,
           "greenPrice": null,
           "description": "6 天；JR 北海道 全線 普通/快速/特急 無限 (北海道新幹線除外)。"
         }
