@@ -24,32 +24,12 @@
     },
     {
       "id": "keisei",
-      "company": "京成電鐵",
+      "company": "京成電鐵 /Skyliner /Sky Access",
       "file": "Keisei Guide on stops.pdf",
       "mark": "KS",
       "isPDF": true,
       "description": "京成電鐵主要營運成田機場到東京市區的鐵路服務。",
       "website": "https://www.keisei.co.jp/",
-      "lastUpdated": "2024-03-20"
-    },
-    {
-      "id": "skyliner",
-      "company": "Skyliner",
-      "file": "Skyliner路線圖.jpg",
-      "mark": "SK",
-      "isPDF": false,
-      "description": "Skyliner 是連接成田機場和東京市區的特快列車服務。",
-      "website": "https://www.keisei.co.jp/keisei/tetudou/skyliner/",
-      "lastUpdated": "2024-03-20"
-    },
-    {
-      "id": "access",
-      "company": "Access 特快",
-      "file": "Access特快列車路線圖.jpg",
-      "mark": "A",
-      "isPDF": false,
-      "description": "Access 特快是連接成田機場和東京市區的另一條特快列車路線。",
-      "website": "https://www.keisei.co.jp/keisei/tetudou/skyliner/access/",
       "lastUpdated": "2024-03-20"
     },
     {
