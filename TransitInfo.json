@@ -1,1 +1,176 @@
-
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2024-03-20T00:00:00+09:00",
+  "transitInfo": [
+    {
+      "id": "jr_east",
+      "company": "JR東日本",
+      "file": "JR東日本東京近郊路線圖.pdf",
+      "mark": "JR",
+      "isPDF": true,
+      "description": "JR東日本是日本最大的鐵路公司之一，主要營運東京及周邊地區的鐵路服務。",
+      "website": "https://www.jreast.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "tokyo_metro",
+      "company": "東京 Metro",
+      "file": "東京Metro地鐵路線圖.pdf",
+      "mark": "M",
+      "isPDF": true,
+      "description": "東京 Metro 是東京主要的地鐵營運商，提供便捷的地下鐵服務。",
+      "website": "https://www.tokyometro.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "keisei",
+      "company": "京成電鐵",
+      "file": "Keisei Guide on stops.pdf",
+      "mark": "KS",
+      "isPDF": true,
+      "description": "京成電鐵主要營運成田機場到東京市區的鐵路服務。",
+      "website": "https://www.keisei.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "skyliner",
+      "company": "Skyliner",
+      "file": "Skyliner路線圖.jpg",
+      "mark": "SK",
+      "isPDF": false,
+      "description": "Skyliner 是連接成田機場和東京市區的特快列車服務。",
+      "website": "https://www.keisei.co.jp/keisei/tetudou/skyliner/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "access",
+      "company": "Access 特快",
+      "file": "Access特快列車路線圖.jpg",
+      "mark": "A",
+      "isPDF": false,
+      "description": "Access 特快是連接成田機場和東京市區的另一條特快列車路線。",
+      "website": "https://www.keisei.co.jp/keisei/tetudou/skyliner/access/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "odakyu",
+      "company": "小田急電鐵",
+      "file": "Odakyu Line Route Map.pdf",
+      "mark": "OQ",
+      "isPDF": true,
+      "description": "小田急電鐵主要營運東京到箱根、江之島等觀光地區的鐵路服務。",
+      "website": "https://www.odakyu.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "keio",
+      "company": "京王電鐵",
+      "file": "Keio Line Route Map.pdf",
+      "mark": "K",
+      "isPDF": true,
+      "description": "京王電鐵主要營運東京西部地區的鐵路服務。",
+      "website": "https://www.keio.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "tokyu",
+      "company": "東急電鐵",
+      "file": "Tokyu Line Route Map.pdf",
+      "mark": "T",
+      "isPDF": true,
+      "description": "東急電鐵主要營運東京南部地區的鐵路服務。",
+      "website": "https://www.tokyu.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "keikyu",
+      "company": "京急電鐵",
+      "file": "京急keikyu路線圖.pdf",
+      "mark": "KK",
+      "isPDF": true,
+      "description": "京急電鐵主要營運羽田機場到東京市區的鐵路服務。",
+      "website": "https://www.keikyu.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "seibu",
+      "company": "西武鐵道",
+      "file": "西武Seibu路線圖.pdf",
+      "mark": "S",
+      "isPDF": true,
+      "description": "西武鐵道主要營運東京西部地區的鐵路服務。",
+      "website": "https://www.seiburailway.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "tobu",
+      "company": "東武鐵道",
+      "file": "東武Tobu路線圖.pdf",
+      "mark": "TB",
+      "isPDF": true,
+      "description": "東武鐵道主要營運東京北部地區的鐵路服務。",
+      "website": "https://www.tobu.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "pasmo",
+      "company": "PASMO 首都圈",
+      "file": "Pasmo首都圈地鐵圖.pdf",
+      "mark": "P",
+      "isPDF": true,
+      "description": "PASMO 是東京首都圈通用的交通 IC 卡。",
+      "website": "https://www.pasmo.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "meitetsu",
+      "company": "名古屋鐵道",
+      "file": "名鐵Meitetsu路線圖.pdf",
+      "mark": "MT",
+      "isPDF": true,
+      "description": "名古屋鐵道是名古屋地區主要的鐵路公司。",
+      "website": "https://www.meitetsu.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "hanshin",
+      "company": "阪神電鐵",
+      "file": "阪神Hanshin.pdf",
+      "mark": "HS",
+      "isPDF": true,
+      "description": "阪神電鐵主要營運大阪和神戶之間的鐵路服務。",
+      "website": "https://www.hanshin.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "keihan",
+      "company": "京阪電鐵",
+      "file": "京阪Keihan.pdf",
+      "mark": "KH",
+      "isPDF": true,
+      "description": "京阪電鐵主要營運京都和大阪之間的鐵路服務。",
+      "website": "https://www.keihan.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "kintetsu",
+      "company": "近鐵電車",
+      "file": "近鐵Kintetsu.pdf",
+      "mark": "KT",
+      "isPDF": true,
+      "description": "近鐵電車是日本最大的私營鐵路公司之一，主要營運關西地區的鐵路服務。",
+      "website": "https://www.kintetsu.co.jp/",
+      "lastUpdated": "2024-03-20"
+    },
+    {
+      "id": "nankai",
+      "company": "南海電鐵",
+      "file": "南海Nankai.pdf",
+      "mark": "NK",
+      "isPDF": true,
+      "description": "南海電鐵主要營運關西機場到大阪市區的鐵路服務。",
+      "website": "https://www.nankai.co.jp/",
+      "lastUpdated": "2024-03-20"
+    }
+  ]
+}
