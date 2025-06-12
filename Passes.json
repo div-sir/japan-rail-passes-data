@@ -1409,7 +1409,6 @@
       { "days": 1, "price": 1900, "description": "1 天；近鐵全線 + 奈良公車，特急需補特急券。" },
       { "days": 2, "price": 3700, "description": "2 天；同上。" },
       { "days": 5, "price": 4900, "description": "5 天；近鐵 + 伊賀鐵道 全線，特急需補票。" },
-      { "days": 5, "price": 6700, "description": "5 天 Plus；含三重巴士、志摩地區觀光船折扣等。" }
     ],
     "id": "kintetsu_pass",
     "file": { 
