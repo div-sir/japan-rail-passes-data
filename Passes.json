@@ -1254,34 +1254,157 @@
         }
       ]
     },
-    {
-      "company" : "Milifix ",
-      "id" : "EDD06358-DE5E-481E-A2DC-83A84755FAA9",
-      "file" : {
-        "path" : "測試.pdf",
-        "type" : "pdf"
-      },
-      "availableTrains" : [
-        "台鐵全線"
-      ],
-      "unavailableTrains" : [
-        "高鐵"
-      ],
-      "name" : "測試",
-      "areas" : [
-        "台灣"
-      ],
-      "category" : "Xx",
-      "extensions" : [
-
-      ],
-      "durations" : [
-        {
-          "days" : 2,
-          "description" : "",
-          "price" : 10000
-        }
-      ]
-    }
+  {
+    "name": "JR 九州鐵路周遊券（全九州）",
+    "category": "jr_regional",
+    "areas": ["九州全境"],
+    "company": "JR九州",
+    "durations": [
+      { "days": 3, "price": 22000, "description": "3 天；JR 九州 全線 + 九州新幹線 博多〜鹿兒島中央 + 西九州新幹線 自由席。" },
+      { "days": 5, "price": 24000, "description": "5 天；同上。" },
+      { "days": 7, "price": 26000, "description": "7 天；同上。" }
+    ],
+    "id": "jr_kyushu_all",
+    "file": { "type": "html", "path": "https://www.jrkyushu.co.jp/english/railpass/railpass.jsp" },
+    "unavailableTrains": [
+      "【新幹線】山陽新幹線 (博多〜小倉)",
+      "【私鐵／地鐵】全線",
+      "【JR BUS】全線"
+    ],
+    "availableTrains": [
+      "【九州新幹線】博多〜鹿兒島中央 (Mizuho／Sakura／Tsubame)",
+      "【西九州新幹線】武雄温泉〜長崎 (Kamome)",
+      "【JR九州 特急】全線 (含 Sonic・Yufuin no Mori・Kamome 等)",
+      "【JR九州 在來線】全線 普通／快速"
+    ]
+  },
+  {
+    "name": "JR 九州鐵路周遊券（北部九州）",
+    "category": "jr_regional",
+    "areas": ["九州北部"],
+    "company": "JR九州",
+    "durations": [
+      { "days": 3, "price": 15000, "description": "3 天；福岡・佐賀・長崎・大分・熊本(含) 北部無限＋九州新幹線 博多〜熊本。" },
+      { "days": 5, "price": 17000, "description": "5 天；同上。" }
+    ],
+    "id": "jr_kyushu_north",
+    "file": { "type": "html", "path": "https://www.jrkyushu.co.jp/english/railpass/railpass.jsp" },
+    "unavailableTrains": [
+      "【新幹線】熊本以南",
+      "【私鐵／地鐵】全線"
+    ],
+    "availableTrains": [
+      "【九州新幹線】博多〜熊本",
+      "【西九州新幹線】武雄温泉〜長崎",
+      "【JR九州 特急】Sonic・Kamome・Relay Kamome 等",
+      "【JR九州 在來線】北九州圈 普通／快速"
+    ]
+  },
+  {
+    "name": "JR 九州鐵路周遊券（南部九州）",
+    "category": "jr_regional",
+    "areas": ["九州南部"],
+    "company": "JR九州",
+    "durations": [
+      { "days": 3, "price": 12000, "description": "3 天；大分南端〜宮崎〜鹿兒島＋九州新幹線 熊本〜鹿兒島中央。" }
+    ],
+    "id": "jr_kyushu_south",
+    "file": { "type": "html", "path": "https://www.jrkyushu.co.jp/english/railpass/railpass.jsp" },
+    "unavailableTrains": [
+      "【新幹線】博多〜熊本",
+      "【私鐵／地鐵】全線"
+    ],
+    "availableTrains": [
+      "【九州新幹線】熊本〜鹿兒島中央",
+      "【JR九州 特急】Nichirin・Kirishima・Ibusuki no Tamatebako 等",
+      "【JR九州 在來線】肥薩線・日豐本線 等 南九州 普通／快速"
+    ]
+  },
+  {
+    "name": "伊勢・熊野・和歌山地區觀光周遊券",
+    "category": "jr_regional",
+    "areas": ["紀伊半島"],
+    "company": "JR東海",
+    "durations": [
+      { "days": 5, "price": 16500, "description": "5 天；王寺〜伊勢市〜紀伊勝浦〜和歌山 JR 在來線 + Mie 快速 + 巴士數路線。" }
+    ],
+    "id": "ise_kumano_wakayama_pass",
+    "file": { "type": "html", "path": "https://global.jr-central.co.jp/en/onlinebooking/" },
+    "unavailableTrains": [
+      "【新幹線】東海道・山陽",
+      "【特急】GREEN／私鐵特急"
+    ],
+    "availableTrains": [
+      "【特急】Wide View Nanki (名古屋〜紀伊勝浦) 自由席",
+      "【快速】Mie (名古屋〜伊勢市) 自由席",
+      "【JR 在來線】紀勢本線 伊勢市〜紀伊勝浦〜和歌山",
+      "【巴士】熊野古道／新宮 巴士 指定區間"
+    ]
+  },
+  {
+    "name": "富士山・靜岡地區 Tourist Pass Mini",
+    "category": "jr_regional",
+    "areas": ["富士山", "靜岡"],
+    "company": "JR東海",
+    "durations": [
+      { "days": 3, "price": 6500, "description": "3 天；東海道線 熱海〜豐橋 + 富士急巴士 + 駿河灣渡輪等。" }
+    ],
+    "id": "fuji_shizuoka_mini",
+    "file": { "type": "html", "path": "https://touristpass.jp/en/fuji_shizuoka/" },
+    "unavailableTrains": [
+      "【新幹線】全線",
+      "【私鐵】大井川鐵道 等"
+    ],
+    "availableTrains": [
+      "【JR 在來線】東海道本線 熱海〜豐橋 普通／快速",
+      "【JR 在來線】御殿場線・身延線 指定區間",
+      "【私鐵】伊豆箱根鐵道 三島〜修善寺",
+      "【巴士／渡輪】富士五湖巴士・駿河灣渡輪"
+    ]
+  },
+  {
+    "name": "立山黑部・高山・松本地區觀光周遊券",
+    "category": "jr_regional",
+    "areas": ["北陸", "中部"],
+    "company": "JR東海",
+    "durations": [
+      { "days": 5, "price": 24000, "description": "5 天；JR 中央線 名古屋〜松本 + 高山本線 名古屋〜富山 + 立山黑部全線 + 4 次特急指定席。" }
+    ],
+    "id": "alpine_takayama_matsumoto_pass",
+    "file": { "type": "html", "path": "https://touristpass.jp/en/alpine/" },
+    "unavailableTrains": [
+      "【新幹線】東海道・北陸",
+      "【私鐵】富山地方鐵道 Tateyama 以外"
+    ],
+    "availableTrains": [
+      "【JR 在來線】中央本線 名古屋〜松本・大糸線 松本〜信濃大町",
+      "【JR 在來線】高山本線 名古屋〜富山",
+      "【地方交通】立山黑部阿爾卑斯路線 全線",
+      "【私鐵】富山地方鐵道 電鐵富山〜立山 (普通／特急) 自由席"
+    ]
+  },
+  {
+    "name": "近鐵鐵路周遊券",
+    "category": "private_rail",
+    "areas": ["關西", "名古屋", "伊勢志摩"],
+    "company": "近鐵電車",
+    "durations": [
+      { "days": 1, "price": 1900, "description": "1 天；近鐵全線 + 奈良公車，特急需補特急券。" },
+      { "days": 2, "price": 3700, "description": "2 天；同上。" },
+      { "days": 5, "price": 4900, "description": "5 天；近鐵 + 伊賀鐵道 全線，特急需補票。" },
+      { "days": 5, "price": 6700, "description": "5 天 Plus；含三重巴士、志摩地區觀光船折扣等。" }
+    ],
+    "id": "kintetsu_pass",
+    "file": { "type": "html", "path": "https://www.kintetsu.co.jp/foreign/english/ticket/" },
+    "unavailableTrains": [
+      "【特急】全線 (需另付特急券)",
+      "【JR／私鐵他社】全線"
+    ],
+    "availableTrains": [
+      "【近鐵】大阪難波・大阪上本町〜伊勢志摩〜名古屋 全線 普通／急行",
+      "【近鐵】橿原・吉野線、南大阪線 等",
+      "【伊賀鐵道】伊賀上野〜伊賀神戶"
+    ]
+  }
   ]
 }
