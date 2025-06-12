@@ -1,8 +1,49 @@
 {
-  "lastUpdated" : "2025-06-12T08:25:45Z",
+  "lastUpdated" : "2025-06-12T08:27:50Z",
   "schemaVersion" : "1.0",
   "passes" : [
     {
+      "category" : "jr_nationwide",
+      "name" : "JR Pass 全國版",
+      "durations" : [
+        {
+          "days" : 7,
+          "description" : "7 天內無限次搭乘 JR 集團全線（除 Nozomi、Mizuho）。",
+          "greenPrice" : 70000,
+          "price" : 50000
+        },
+        {
+          "days" : 14,
+          "description" : "14 天內無限次搭乘 JR 集團全線（除 Nozomi、Mizuho）。",
+          "greenPrice" : 120000,
+          "price" : 80000
+        },
+        {
+          "days" : 21,
+          "description" : "21 天內無限次搭乘 JR 集團全線（除 Nozomi、Mizuho）。",
+          "greenPrice" : 150000,
+          "price" : 100000
+        }
+      ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "JR Pass全國版.pdf"
+      },
+      "company" : "JR集團",
+      "id" : "jrpass_nationwide",
+      "unavailableTrains" : [
+        "【新幹線】Nozomi／Mizuho",
+        "【私鐵／第三部門】全線",
+        "【地鐵】全線",
+        "【高速巴士】JR 高速／夜行",
+        "【觀光船】宮島渡輪以外"
+      ],
+      "areas" : [
+        "全國"
+      ],
+      "extensions" : [
+
+      ],
       "availableTrains" : [
         "【JR在來線】全國普通／快速／特急 (JR 北海道・東日本・東海・西日本・四國・九州)",
         "【新幹線】東北新幹線 (東京〜新函館北斗)",
@@ -14,50 +55,42 @@
         "【新幹線】九州新幹線 (博多〜鹿兒島中央) ※Mizuho 不適用",
         "【JR 渡輪】宮島 JR 渡輪",
         "【JR 巴士】JR 關東／東北／中國／九州 一般路線 (高速除外)"
-      ],
-      "unavailableTrains" : [
-        "【新幹線】Nozomi／Mizuho",
-        "【私鐵／第三部門】全線",
-        "【地鐵】全線",
-        "【高速巴士】JR 高速／夜行",
-        "【觀光船】宮島渡輪以外"
-      ],
-      "category" : "jr_nationwide",
-      "extensions" : [
-
-      ],
-      "company" : "JR集團",
-      "name" : "JR Pass 全國版",
-      "durations" : [
-        {
-          "days" : 7,
-          "price" : 50000,
-          "description" : "7 天內無限次搭乘 JR 集團全線（除 Nozomi、Mizuho）。",
-          "greenPrice" : 70000
-        },
-        {
-          "days" : 14,
-          "price" : 80000,
-          "description" : "14 天內無限次搭乘 JR 集團全線（除 Nozomi、Mizuho）。",
-          "greenPrice" : 120000
-        },
-        {
-          "days" : 21,
-          "price" : 100000,
-          "description" : "21 天內無限次搭乘 JR 集團全線（除 Nozomi、Mizuho）。",
-          "greenPrice" : 150000
-        }
-      ],
-      "file" : {
-        "path" : "JR Pass全國版.pdf",
-        "type" : "pdf"
-      },
-      "id" : "jrpass_nationwide",
-      "areas" : [
-        "全國"
       ]
     },
     {
+      "category" : "jr_regional",
+      "name" : "JR 東日本周遊券（東北地區）",
+      "durations" : [
+        {
+          "price" : 30000,
+          "days" : 5,
+          "description" : "自啟用日起「連續」5 天內，可無限次搭乘適用區域內列車（普通車指定席）。"
+        },
+        {
+          "price" : 48000,
+          "days" : 10,
+          "description" : "自啟用日起「連續」10 天內，可無限次搭乘適用區域內列車（普通車指定席），2025-05-15 起開始販售。"
+        }
+      ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "JR_EAST_PASS_Tohoku_area.pdf"
+      },
+      "company" : "JR東日本",
+      "id" : "jrpass_east",
+      "unavailableTrains" : [
+        "【新幹線】東海道・山陽・九州新幹線",
+        "【私鐵／地鐵】（除特定直通特急外）",
+        "【高速／夜行巴士】全線",
+        "Green Car・GranClass（需另付費）"
+      ],
+      "areas" : [
+        "東北",
+        "東京周邊"
+      ],
+      "extensions" : [
+
+      ],
       "availableTrains" : [
         "【新幹線】東北新幹線 (東京〜新青森) ※含 Hayabusa・Hayate・Yamabiko",
         "【新幹線】山形新幹線 (福島〜新庄)",
@@ -68,42 +101,50 @@
         "【第三部門】IGR 岩手銀河鐵道・青い森鐵道・伊豆急行",
         "【私鐵直通特急】Nikko／Kinugawa／SPACIA Kinugawa（JR⇄東武直通）",
         "【其他】東京單軌電車、JR 巴士（高速巴士及部分路線除外）"
-      ],
-      "unavailableTrains" : [
-        "【新幹線】東海道・山陽・九州新幹線",
-        "【私鐵／地鐵】（除特定直通特急外）",
-        "【高速／夜行巴士】全線",
-        "Green Car・GranClass（需另付費）"
-      ],
-      "category" : "jr_regional",
-      "extensions" : [
-
-      ],
-      "company" : "JR東日本",
-      "name" : "JR 東日本周遊券（東北地區）",
-      "durations" : [
-        {
-          "days" : 5,
-          "price" : 30000,
-          "description" : "自啟用日起「連續」5 天內，可無限次搭乘適用區域內列車（普通車指定席）。"
-        },
-        {
-          "days" : 10,
-          "price" : 48000,
-          "description" : "自啟用日起「連續」10 天內，可無限次搭乘適用區域內列車（普通車指定席），2025-05-15 起開始販售。"
-        }
-      ],
-      "file" : {
-        "path" : "JR_EAST_PASS_Tohoku_area.pdf",
-        "type" : "pdf"
-      },
-      "id" : "jrpass_east",
-      "areas" : [
-        "東北",
-        "東京周邊"
       ]
     },
     {
+      "category" : "jr_regional",
+      "name" : "關西地區鐵路周遊券",
+      "durations" : [
+        {
+          "price" : 2800,
+          "days" : 1,
+          "description" : "1 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。"
+        },
+        {
+          "price" : 4800,
+          "days" : 2,
+          "description" : "2 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。"
+        },
+        {
+          "price" : 5800,
+          "days" : 3,
+          "description" : "3 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。"
+        },
+        {
+          "price" : 7000,
+          "days" : 4,
+          "description" : "4 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。"
+        }
+      ],
+      "file" : {
+        "path" : "關西地區鐵路周遊券.pdf",
+        "type" : "pdf"
+      },
+      "company" : "JR西日本",
+      "id" : "jr_kansai_area",
+      "unavailableTrains" : [
+        "【新幹線】東海道・山陽 全線",
+        "【特急】THUNDERBIRD・KUROSHIO 等 (HARUKA 除外)",
+        "【私鐵／地鐵】全線"
+      ],
+      "areas" : [
+        "關西"
+      ],
+      "extensions" : [
+
+      ],
       "availableTrains" : [
         "【JR西日本 在來線】大阪環狀線 全線",
         "【JR西日本 在來線】JR 京都線 (京都〜大阪)",
@@ -114,50 +155,30 @@
         "【JR西日本 在來線】大和路線 (JR難波〜奈良)",
         "【JR西日本 在來線】奈良線 (京都〜奈良)",
         "【特急】HARUKA (天王寺〜關西機場) 指定席 1 次"
-      ],
-      "unavailableTrains" : [
-        "【新幹線】東海道・山陽 全線",
-        "【特急】THUNDERBIRD・KUROSHIO 等 (HARUKA 除外)",
-        "【私鐵／地鐵】全線"
-      ],
-      "category" : "jr_regional",
-      "extensions" : [
-
-      ],
-      "company" : "JR西日本",
-      "name" : "關西地區鐵路周遊券",
-      "durations" : [
-        {
-          "days" : 1,
-          "price" : 2800,
-          "description" : "1 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。"
-        },
-        {
-          "days" : 2,
-          "price" : 4800,
-          "description" : "2 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。"
-        },
-        {
-          "description" : "3 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。",
-          "days" : 3,
-          "price" : 5800
-        },
-        {
-          "description" : "4 天內無限次搭乘 JR 西日本 關西核心區域 普通／快速 + HARUKA 1 次 指定席。",
-          "days" : 4,
-          "price" : 7000
-        }
-      ],
-      "file" : {
-        "path" : "關西地區鐵路周遊券.pdf",
-        "type" : "pdf"
-      },
-      "id" : "jr_kansai_area",
-      "areas" : [
-        "關西"
       ]
     },
     {
+      "extensions" : [
+
+      ],
+      "id" : "jr_kansai_mini",
+      "file" : {
+        "type" : "pdf",
+        "path" : "JR關西迷你鐵路周遊券.pdf"
+      },
+      "unavailableTrains" : [
+        "【特急】全部",
+        "【新幹線】東海道・山陽",
+        "【私鐵／地鐵】全線"
+      ],
+      "category" : "jr_regional",
+      "durations" : [
+        {
+          "price" : 3000,
+          "description" : "3 天內無限次搭乘 JR 西日本 大阪・京都・神戶・奈良 核心圈 普通／快速 (不含特急)。",
+          "days" : 3
+        }
+      ],
       "availableTrains" : [
         "【JR西日本 在來線】大阪環狀線",
         "【JR西日本 在來線】JR 京都線 (京都〜大阪)",
@@ -167,34 +188,34 @@
         "【JR西日本 在來線】阪和線 (天王寺〜日根野)",
         "【JR西日本 在來線】奈良線 (京都〜奈良)"
       ],
-      "unavailableTrains" : [
-        "【特急】全部",
-        "【新幹線】東海道・山陽",
-        "【私鐵／地鐵】全線"
+      "areas" : [
+        "關西"
       ],
-      "category" : "jr_regional",
+      "company" : "JR西日本",
+      "name" : "JR關西迷你鐵路周遊券"
+    },
+    {
       "extensions" : [
 
       ],
-      "company" : "JR西日本",
-      "name" : "JR關西迷你鐵路周遊券",
+      "name" : "鳥取・松江周遊券",
+      "file" : {
+        "type" : "pdf",
+        "path" : "鳥取松江周遊券.pdf"
+      },
+      "unavailableTrains" : [
+        "【新幹線】全線",
+        "【特急】區間外",
+        "【私鐵・地鐵】全線"
+      ],
+      "category" : "jr_regional",
       "durations" : [
         {
-          "description" : "3 天內無限次搭乘 JR 西日本 大阪・京都・神戶・奈良 核心圈 普通／快速 (不含特急)。",
-          "days" : 3,
-          "price" : 3000
+          "price" : 4000,
+          "description" : "3 天內無限次搭乘 山陰本線 香住〜出雲市 + 因美線 智頭〜鳥取 + 特急。",
+          "days" : 3
         }
       ],
-      "file" : {
-        "path" : "JR關西迷你鐵路周遊券.pdf",
-        "type" : "pdf"
-      },
-      "id" : "jr_kansai_mini",
-      "areas" : [
-        "關西"
-      ]
-    },
-    {
       "availableTrains" : [
         "【特急】Super Hakuto (智頭〜鳥取) 自由席",
         "【特急】Super Inaba (鳥取〜智頭) 自由席",
@@ -203,34 +224,34 @@
         "【JR 在來線】因美線 智頭〜鳥取",
         "【JR 在來線】境線 米子〜境港"
       ],
-      "unavailableTrains" : [
-        "【新幹線】全線",
-        "【特急】區間外",
-        "【私鐵・地鐵】全線"
+      "areas" : [
+        "山陰"
       ],
-      "category" : "jr_regional",
+      "company" : "JR西日本",
+      "id" : "tottori_matsue_pass"
+    },
+    {
       "extensions" : [
 
       ],
-      "company" : "JR西日本",
-      "name" : "鳥取・松江周遊券",
-      "durations" : [
-        {
-          "days" : 3,
-          "description" : "3 天內無限次搭乘 山陰本線 香住〜出雲市 + 因美線 智頭〜鳥取 + 特急。",
-          "price" : 4000
-        }
-      ],
+      "name" : "北陸地區鐵路周遊券",
       "file" : {
         "type" : "pdf",
-        "path" : "鳥取松江周遊券.pdf"
+        "path" : "北陸地區鐵路周遊券.pdf"
       },
-      "id" : "tottori_matsue_pass",
-      "areas" : [
-        "山陰"
-      ]
-    },
-    {
+      "unavailableTrains" : [
+        "【新幹線】金澤〜東京",
+        "【新幹線】其他",
+        "【私鐵】全線"
+      ],
+      "category" : "jr_regional",
+      "durations" : [
+        {
+          "price" : 7000,
+          "description" : "4 天內無限次搭乘 北陸新幹線 敦賀〜黒部宇奈月 + 北陸本線 + 第三部門。",
+          "days" : 4
+        }
+      ],
       "availableTrains" : [
         "【新幹線】北陸新幹線 敦賀〜黒部宇奈月",
         "【特急】Thunderbird\/Shirasagi 敦賀〜金澤",
@@ -238,32 +259,11 @@
         "【第三部門】IR 石川, ハピライン",
         "【地方鐵道】のと鉄道 七尾〜和倉温泉"
       ],
-      "unavailableTrains" : [
-        "【新幹線】金澤〜東京",
-        "【新幹線】其他",
-        "【私鐵】全線"
-      ],
-      "category" : "jr_regional",
-      "extensions" : [
-
-      ],
-      "company" : "JR西日本",
-      "name" : "北陸地區鐵路周遊券",
-      "durations" : [
-        {
-          "days" : 4,
-          "description" : "4 天內無限次搭乘 北陸新幹線 敦賀〜黒部宇奈月 + 北陸本線 + 第三部門。",
-          "price" : 7000
-        }
-      ],
-      "file" : {
-        "type" : "pdf",
-        "path" : "北陸地區鐵路周遊券.pdf"
-      },
-      "id" : "hokuriku_area_pass",
       "areas" : [
         "北陸"
-      ]
+      ],
+      "company" : "JR西日本",
+      "id" : "hokuriku_area_pass"
     },
     {
       "availableTrains" : [
@@ -281,6 +281,17 @@
         "【JR 渡輪】宮島 JR 渡輪",
         "【JR BUS】西日本 JR 巴士 高雄・嵐山線 (京都市內)"
       ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "關西廣域鐵路周遊券.pdf"
+      },
+      "durations" : [
+        {
+          "price" : 12000,
+          "description" : "5 天內；山陽新幹線(新大阪~岡山)自由席+關西·北陸·山陰指定特急與在來線無限搭乘。",
+          "days" : 5
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】東海道新幹線 (東京〜新大阪)",
         "【新幹線】山陽新幹線 岡山以西",
@@ -288,28 +299,17 @@
         "【私鐵・地鐵】南海・近鐵・阪急・阪神・京阪 及地方電鐵全線",
         "【高速／夜行巴士】全線"
       ],
-      "category" : "jr_regional",
       "extensions" : [
         "北陸",
         "山陰"
       ],
-      "company" : "JR西日本",
-      "name" : "關西廣域鐵路周遊券",
-      "durations" : [
-        {
-          "days" : 5,
-          "description" : "5 天內；山陽新幹線(新大阪~岡山)自由席+關西·北陸·山陰指定特急與在來線無限搭乘。",
-          "price" : 12000
-        }
-      ],
-      "file" : {
-        "type" : "pdf",
-        "path" : "關西廣域鐵路周遊券.pdf"
-      },
-      "id" : "kansai_wide_pass",
       "areas" : [
         "關西"
-      ]
+      ],
+      "company" : "JR西日本",
+      "name" : "關西廣域鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "kansai_wide_pass"
     },
     {
       "availableTrains" : [
@@ -318,17 +318,10 @@
         "【在來線】山陽本線 (岡山〜下關)・呉線 (廣島〜三原)・可部線 (廣島〜可部)・岩德線 (岩國〜櫛浜)",
         "【JR 渡輪】宮島 JR 渡輪 (宮島口〜宮島)"
       ],
-      "unavailableTrains" : [
-        "【新幹線】東海道新幹線",
-        "【私鐵／地鐵】廣島電鐵 等",
-        "【GREEN 車廂】全部"
-      ],
-      "category" : "jr_regional",
-      "extensions" : [
-
-      ],
-      "company" : "JR西日本",
-      "name" : "廣島&山口地區鐵路周遊券",
+      "file" : {
+        "type" : "pdf",
+        "path" : "廣島山口地區鐵路周遊券.pdf"
+      },
       "durations" : [
         {
           "price" : 15000,
@@ -336,14 +329,21 @@
           "days" : 5
         }
       ],
-      "file" : {
-        "type" : "pdf",
-        "path" : "廣島山口地區鐵路周遊券.pdf"
-      },
-      "id" : "hiroshima_yamaguchi_pass",
+      "unavailableTrains" : [
+        "【新幹線】東海道新幹線",
+        "【私鐵／地鐵】廣島電鐵 等",
+        "【GREEN 車廂】全部"
+      ],
+      "extensions" : [
+
+      ],
       "areas" : [
         "山陽"
-      ]
+      ],
+      "company" : "JR西日本",
+      "name" : "廣島&山口地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "hiroshima_yamaguchi_pass"
     },
     {
       "availableTrains" : [
@@ -353,17 +353,10 @@
         "【在來線】JR 京都線・神戶線・山陽本線 (大阪〜岩國)",
         "【JR 渡輪】宮島 JR 渡輪"
       ],
-      "unavailableTrains" : [
-        "【新幹線】東海道新幹線 \/ 山陽 廣島以西",
-        "【GREEN 車廂】全部",
-        "【私鐵／地鐵】全線"
-      ],
-      "category" : "jr_regional",
-      "extensions" : [
-
-      ],
-      "company" : "JR西日本",
-      "name" : "關西&廣島地區鐵路周遊券",
+      "file" : {
+        "path" : "關西廣島地區鐵路周遊券.pdf",
+        "type" : "pdf"
+      },
       "durations" : [
         {
           "price" : 17000,
@@ -371,23 +364,24 @@
           "days" : 5
         }
       ],
-      "file" : {
-        "type" : "pdf",
-        "path" : "關西廣島地區鐵路周遊券.pdf"
-      },
-      "id" : "kansai_hiroshima_pass",
+      "unavailableTrains" : [
+        "【新幹線】東海道新幹線 \/ 山陽 廣島以西",
+        "【GREEN 車廂】全部",
+        "【私鐵／地鐵】全線"
+      ],
+      "extensions" : [
+
+      ],
       "areas" : [
         "關西",
         "山陽"
-      ]
+      ],
+      "company" : "JR西日本",
+      "name" : "關西&廣島地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "kansai_hiroshima_pass"
     },
     {
-      "company" : "JR西日本",
-      "id" : "okayama_hiroshima_yamaguchi_pass",
-      "file" : {
-        "path" : "岡山廣島山口地區鐵路周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【新幹線】山陽新幹線 (岡山〜博多) 自由席",
         "【特急】やくも (岡山〜出雲市) 岡山〜備中高梁 自由席",
@@ -395,34 +389,34 @@
         "【在來線】山陽本線 (岡山〜下關)・伯備線 (岡山〜新見)",
         "【JR 渡輪】宮島 JR 渡輪"
       ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "岡山廣島山口地區鐵路周遊券.pdf"
+      },
+      "durations" : [
+        {
+          "days" : 5,
+          "price" : 17000,
+          "description" : "5 天；山陽新幹線 岡山~博多 自由席 + 山陽本線\/伯備線 特急・在來線 + 宮島渡輪。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】東海道新幹線",
         "【GREEN 車廂】全部",
         "【私鐵／地鐵】全線"
       ],
-      "name" : "岡山&廣島&山口地區鐵路周遊券",
-      "areas" : [
-        "山陽"
-      ],
-      "category" : "jr_regional",
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "price" : 17000,
-          "description" : "5 天；山陽新幹線 岡山~博多 自由席 + 山陽本線\/伯備線 特急・在來線 + 宮島渡輪。",
-          "days" : 5
-        }
-      ]
+      "areas" : [
+        "山陽"
+      ],
+      "company" : "JR西日本",
+      "name" : "岡山&廣島&山口地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "okayama_hiroshima_yamaguchi_pass"
     },
     {
-      "company" : "JR西日本",
-      "id" : "kansai_sanin_pass",
-      "file" : {
-        "type" : "pdf",
-        "path" : "關西山陰地區鐵路周遊券.pdf"
-      },
       "availableTrains" : [
         "【特急】Kinosaki \/ Hashidate \/ Maizuru (京都\/大阪〜城崎温泉\/天橋立) 自由席",
         "【特急】Hamakaze (大阪〜鳥取) 自由席",
@@ -431,35 +425,35 @@
         "【在來線】山陰本線 (京都〜益田) 全線",
         "【在來線】播但線 (姬路〜寺前)・舞鶴線 (綾部〜東舞鶴)"
       ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "關西山陰地區鐵路周遊券.pdf"
+      },
+      "durations" : [
+        {
+          "days" : 7,
+          "price" : 18000,
+          "description" : "7 天；山陰本線 全線普通\/特急 + 関西主要在來線特急，自由席無限次。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】全線",
         "【GREEN 車廂】全部",
         "【私鐵・地鐵】全線"
       ],
-      "name" : "關西&山陰地區鐵路周遊券",
       "areas" : [
         "關西",
         "山陰"
       ],
-      "category" : "jr_regional",
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "days" : 7,
-          "description" : "7 天；山陰本線 全線普通\/特急 + 関西主要在來線特急，自由席無限次。",
-          "price" : 18000
-        }
-      ]
+      "company" : "JR西日本",
+      "name" : "關西&山陰地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "kansai_sanin_pass"
     },
     {
-      "company" : "JR西日本",
-      "id" : "kansai_hokuriku_pass",
-      "file" : {
-        "type" : "pdf",
-        "path" : "關西北陸地區鐵路周遊券.pdf"
-      },
       "availableTrains" : [
         "【新幹線】北陸新幹線 (金澤〜敦賀) 自由席",
         "【特急】THUNDERBIRD (大阪〜金澤) 自由席",
@@ -467,13 +461,22 @@
         "【在來線】JR 京都線・神戶線・北陸本線 (米原〜金澤)",
         "【第三部門】IR 石川 (金澤〜津幡)"
       ],
+      "file" : {
+        "path" : "關西北陸地區鐵路周遊券.pdf",
+        "type" : "pdf"
+      },
+      "durations" : [
+        {
+          "days" : 7,
+          "price" : 19000,
+          "description" : "7 天；北陸新幹線 (金澤~敦賀) + THUNDERBIRD + 關西在來線。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】北陸 金澤〜東京 \/ 東海道・山陽",
         "【GREEN 車廂】全部",
         "【私鐵・地鐵】全線"
       ],
-      "name" : "關西&北陸地區鐵路周遊券",
-      "category" : "jr_regional",
       "areas" : [
         "關西",
         "北陸"
@@ -481,21 +484,12 @@
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "days" : 7,
-          "description" : "7 天；北陸新幹線 (金澤~敦賀) + THUNDERBIRD + 關西在來線。",
-          "price" : 19000
-        }
-      ]
+      "company" : "JR西日本",
+      "name" : "關西&北陸地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "kansai_hokuriku_pass"
     },
     {
-      "company" : "JR東海",
-      "id" : "takayama_hokuriku_pass",
-      "file" : {
-        "type" : "pdf",
-        "path" : "高山北陸地區周遊券.pdf"
-      },
       "availableTrains" : [
         "【特急】ひだ Hida (名古屋〜高山〜富山) 自由席",
         "【特急】しらさぎ Shirasagi (名古屋〜金澤) 名古屋〜米原 區段",
@@ -504,13 +498,22 @@
         "【第三部門】IR 石川 \/ あいの風とやま",
         "【高速巴士】濃飛\/北鐵 (高山〜白川鄉〜金澤) 各 1 趟"
       ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "高山北陸地區周遊券.pdf"
+      },
+      "durations" : [
+        {
+          "days" : 5,
+          "price" : 19800,
+          "description" : "5 天；特急ひだ + 高山本線 + 北陸本線 + 白川鄉高速巴士。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】東海道・山陽・北陸 (東京〜金澤)",
         "【GREEN 車廂】全部",
         "【私鐵・地鐵】全線"
       ],
-      "name" : "高山、北陸地區周遊券",
-      "category" : "jr_regional",
       "areas" : [
         "北陸",
         "中部"
@@ -518,21 +521,12 @@
       "extensions" : [
         "高山"
       ],
-      "durations" : [
-        {
-          "days" : 5,
-          "description" : "5 天；特急ひだ + 高山本線 + 北陸本線 + 白川鄉高速巴士。",
-          "price" : 19800
-        }
-      ]
+      "company" : "JR東海",
+      "name" : "高山、北陸地區周遊券",
+      "category" : "jr_regional",
+      "id" : "takayama_hokuriku_pass"
     },
     {
-      "company" : "JR西日本",
-      "id" : "setouchi_pass",
-      "file" : {
-        "path" : "瀨戶內地區鐵路周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【新幹線】山陽新幹線 (新大阪〜博多) 自由席",
         "【特急】Marine Liner (岡山〜高松) 自由席",
@@ -542,13 +536,22 @@
         "【在來線】予讚線 (高松〜觀音寺)",
         "【渡輪】宮島 JR 渡輪 \/ 小豆島 輪渡 (高松港〜土庄港)"
       ],
+      "file" : {
+        "path" : "瀨戶內地區鐵路周遊券.pdf",
+        "type" : "pdf"
+      },
+      "durations" : [
+        {
+          "days" : 7,
+          "price" : 22000,
+          "description" : "7 天；山陽新幹線 新大阪~博多 自由席 + 四國特急 + 宮島\/小豆島 渡輪。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】東海道新幹線 全線",
         "【GREEN 車廂】全部",
         "【私鐵・地鐵】全線"
       ],
-      "name" : "瀨戶內地區鐵路周遊券",
-      "category" : "jr_regional",
       "areas" : [
         "瀨戶內"
       ],
@@ -556,21 +559,12 @@
         "山陽",
         "四國"
       ],
-      "durations" : [
-        {
-          "days" : 7,
-          "description" : "7 天；山陽新幹線 新大阪~博多 自由席 + 四國特急 + 宮島\/小豆島 渡輪。",
-          "price" : 22000
-        }
-      ]
+      "company" : "JR西日本",
+      "name" : "瀨戶內地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "setouchi_pass"
     },
     {
-      "company" : "JR西日本",
-      "id" : "sanyo_sanin_pass",
-      "file" : {
-        "path" : "山陽山陰地區鐵路周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【新幹線】山陽新幹線 (新大阪〜博多) 自由席",
         "【特急】Yakumo (岡山〜出雲市) 自由席",
@@ -579,13 +573,22 @@
         "【在來線】山陰本線 (京都〜下關)・山陽本線",
         "【渡輪】宮島 JR 渡輪"
       ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "山陽山陰地區鐵路周遊券.pdf"
+      },
+      "durations" : [
+        {
+          "days" : 7,
+          "price" : 23000,
+          "description" : "7 天；山陽新幹線 新大阪~博多 自由席 + 山陰本線特急 + 宮島渡輪。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】東海道新幹線",
         "【GREEN 車廂】全部",
         "【私鐵／地鐵】全線"
       ],
-      "name" : "山陽&山陰地區鐵路周遊券",
-      "category" : "jr_regional",
       "areas" : [
         "山陽",
         "山陰"
@@ -593,21 +596,12 @@
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "days" : 7,
-          "description" : "7 天；山陽新幹線 新大阪~博多 自由席 + 山陰本線特急 + 宮島渡輪。",
-          "price" : 23000
-        }
-      ]
+      "company" : "JR西日本",
+      "name" : "山陽&山陰地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "sanyo_sanin_pass"
     },
     {
-      "company" : "JR西日本",
-      "id" : "jrwest_all_pass",
-      "file" : {
-        "type" : "pdf",
-        "path" : "JR西日本全地區鐵路周遊券.pdf"
-      },
       "availableTrains" : [
         "【新幹線】山陽新幹線 (新大阪〜博多) 自由席 ※Nozomi \/ Mizuho 可乘",
         "【特急】JR 西日本 所有特急 自由席",
@@ -615,13 +609,22 @@
         "【渡輪】宮島 JR 渡輪",
         "【JR BUS】西日本 一般路線 (京都 高雄·嵐山 線 等)"
       ],
+      "file" : {
+        "path" : "JR西日本全地區鐵路周遊券.pdf",
+        "type" : "pdf"
+      },
+      "durations" : [
+        {
+          "days" : 7,
+          "price" : 26000,
+          "description" : "7 天；JR 西日本 全區列車 + 山陽新幹線 自由席 + 宮島渡輪 + JR BUS。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】東海道新幹線",
         "【GREEN 車廂】全部",
         "【私鐵／地鐵】全線"
       ],
-      "name" : "JR西日本全地區鐵路周遊券",
-      "category" : "jr_regional",
       "areas" : [
         "關西",
         "北陸",
@@ -631,21 +634,12 @@
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "days" : 7,
-          "description" : "7 天；JR 西日本 全區列車 + 山陽新幹線 自由席 + 宮島渡輪 + JR BUS。",
-          "price" : 26000
-        }
-      ]
+      "company" : "JR西日本",
+      "name" : "JR西日本全地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "jrwest_all_pass"
     },
     {
-      "company" : "JR西日本",
-      "id" : "sanyo_sanin_northkyushu_pass",
-      "file" : {
-        "path" : "山陽山陰北部九州地區鐵路周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【新幹線】山陽新幹線 (新大阪〜博多) 自由席",
         "【新幹線】九州新幹線 (博多〜熊本) 自由席",
@@ -654,14 +648,23 @@
         "【在來線】JR 西日本 山陽本線 (神戶〜下關)・山陰本線",
         "【渡輪】宮島 JR 渡輪"
       ],
+      "file" : {
+        "path" : "山陽山陰北部九州地區鐵路周遊券.pdf",
+        "type" : "pdf"
+      },
+      "durations" : [
+        {
+          "days" : 7,
+          "price" : 26000,
+          "description" : "7 天；山陽新幹線 新大阪~博多 + 九州新幹線 博多~熊本 + 北九州特急\/在來線。"
+        }
+      ],
       "unavailableTrains" : [
         "【新幹線】九州新幹線 熊本以南",
         "【新幹線】東海道新幹線",
         "【GREEN 車廂】全部",
         "【私鐵／地鐵】全線"
       ],
-      "name" : "山陽&山陰&北部九州地區鐵路周遊券",
-      "category" : "jr_regional",
       "areas" : [
         "山陽",
         "山陰"
@@ -669,21 +672,12 @@
       "extensions" : [
         "九州北部"
       ],
-      "durations" : [
-        {
-          "days" : 7,
-          "description" : "7 天；山陽新幹線 新大阪~博多 + 九州新幹線 博多~熊本 + 北九州特急\/在來線。",
-          "price" : 26000
-        }
-      ]
+      "company" : "JR西日本",
+      "name" : "山陽&山陰&北部九州地區鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "sanyo_sanin_northkyushu_pass"
     },
     {
-      "company" : "JR四國",
-      "id" : "shikoku_pass",
-      "file" : {
-        "path" : "四國鐵路周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【特急】Shiokaze \/ Ishizuchi (岡山\/高松〜松山) 自由席",
         "【特急】Uwakai (松山〜宇和島) 自由席",
@@ -692,19 +686,10 @@
         "【觀光列車】伊予灘ものがたり \/ 四國まんなか千年ものがたり 自由席 (需整理券)",
         "【在來線】JR 四國 全線 普通／快速"
       ],
-      "unavailableTrains" : [
-        "【新幹線】全線",
-        "【GREEN 車廂】全部",
-        "【私鐵・地鐵】高松琴平電鐵 等"
-      ],
-      "name" : "四國鐵路周遊券",
-      "category" : "jr_regional",
-      "areas" : [
-        "四國"
-      ],
-      "extensions" : [
-
-      ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "四國鐵路周遊券.pdf"
+      },
       "durations" : [
         {
           "days" : 3,
@@ -713,31 +698,61 @@
         },
         {
           "days" : 4,
-          "description" : "4天 ；JR 四國 全線 普通\/快速\/特急 + 主要觀光列車 自由席 無限搭乘。",
+          "description" : "4 ；JR 四國 全線 普通\/快速\/特急 + 主要觀光列車 自由席 無限搭乘。",
           "price" : 15000
         },
         {
           "days" : 5,
-          "description" : "5天 ；JR 四國 全線 普通\/快速\/特急 + 主要觀光列車 自由席 無限搭乘。",
+          "description" : "5 ；JR 四國 全線 普通\/快速\/特急 + 主要觀光列車 自由席 無限搭乘。",
           "price" : 17000
         },
         {
-          "price" : 20000,
-          "description" : "7 天；JR 四國 全線 普通\/快速\/特急 + 主要觀光列車 自由席 無限搭乘。",
-          "days" : 7
+          "days" : 7,
+          "description" : "7 ；JR 四國 全線 普通\/快速\/特急 + 主要觀光列車 自由席 無限搭乘。",
+          "price" : 20000
         }
-      ]
+      ],
+      "unavailableTrains" : [
+        "【新幹線】全線",
+        "【GREEN 車廂】全部",
+        "【私鐵・地鐵】高松琴平電鐵 等"
+      ],
+      "areas" : [
+        "四國"
+      ],
+      "extensions" : [
+
+      ],
+      "company" : "JR四國",
+      "name" : "四國鐵路周遊券",
+      "category" : "jr_regional",
+      "id" : "shikoku_pass"
     },
     {
-      "company" : "東京Metro／都營地鐵",
-      "id" : "tokyo_subway_ticket",
-      "file" : {
-        "type" : "pdf",
-        "path" : "東京地鐵通票.pdf"
-      },
       "availableTrains" : [
         "【東京 Metro】銀座・丸之內・日比谷・東西・千代田・有樂町・半藏門・南北・副都心 9 線",
         "【都營地鐵】浅草・三田・新宿・大江戶 4 線"
+      ],
+      "file" : {
+        "path" : "東京地鐵通票.pdf",
+        "type" : "pdf"
+      },
+      "durations" : [
+        {
+          "days" : 1,
+          "description" : "1 天內無限次搭乘 東京 Metro 9 線 + 都營地鐵 4 線。",
+          "price" : 800
+        },
+        {
+          "days" : 2,
+          "description" : "2 天內無限次搭乘 東京 Metro 9 線 + 都營地鐵 4 線。",
+          "price" : 1200
+        },
+        {
+          "price" : 1500,
+          "days" : 3,
+          "description" : "3 天內無限次搭乘 東京 Metro 9 線 + 都營地鐵 4 線。"
+        }
       ],
       "unavailableTrains" : [
         "【JR】山手線·中央線等 JR 線",
@@ -745,39 +760,18 @@
         "【新幹線】全線",
         "【地面巴士／渡輪】全線"
       ],
-      "name" : "東京地鐵通票",
       "areas" : [
         "東京"
       ],
-      "category" : "metro",
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "description" : "1 天內無限次搭乘 東京 Metro 9 線 + 都營地鐵 4 線。",
-          "days" : 1,
-          "price" : 800
-        },
-        {
-          "description" : "2 天內無限次搭乘 東京 Metro 9 線 + 都營地鐵 4 線。",
-          "days" : 2,
-          "price" : 1200
-        },
-        {
-          "description" : "3 天內無限次搭乘 東京 Metro 9 線 + 都營地鐵 4 線。",
-          "days" : 3,
-          "price" : 1500
-        }
-      ]
+      "company" : "東京Metro／都營地鐵",
+      "name" : "東京地鐵通票",
+      "category" : "metro",
+      "id" : "tokyo_subway_ticket"
     },
     {
-      "company" : "關西交通",
-      "id" : "kansai_private_pass",
-      "file" : {
-        "path" : "關西周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【南海電鐵】南海本線・空港線 (難波〜關西機場)／高野線 (汐見橋〜橋本)",
         "【近鐵】大阪線 (大阪上本町〜榛原)／奈良線 (大阪難波〜近鐵奈良)／京都線 (京都〜近鐵丹波橋)",
@@ -788,7 +782,28 @@
         "【京都市營地鐵】烏丸線 (國際會館〜竹田)／東西線 (六地藏〜太秦天神川)",
         "【神戶市營地鐵】西神山手線 (新神戶〜西神中央)／海岸線 (新長田〜三宮·花時計前)",
         "【巴士】關西機場 Limousine Bus (關西機場〜大阪站前\/心齋橋 等 指定段)",
-        "【觀光電車】南海 Rap:t 特急 (需另付特急券) 可支付差額乘坐"
+        "【特急】Rap:t（需另購特急券）"
+      ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "關西周遊券.pdf"
+      },
+      "durations" : [
+        {
+          "price" : 5500,
+          "days" : 2,
+          "description" : "2 天；涵蓋關西主要私鐵・市營地鐵・機場\/市區巴士，適合大阪+京都+奈良自由行。"
+        },
+        {
+          "price" : 7000,
+          "days" : 3,
+          "description" : "3 天；涵蓋關西主要私鐵・市營地鐵・機場\/市區巴士，適合大阪+京都+奈良自由行。"
+        },
+        {
+          "price" : 8500,
+          "days" : 4,
+          "description" : "4 天；涵蓋關西主要私鐵・市營地鐵・機場\/市區巴士，適合大阪+京都+奈良自由行。"
+        }
       ],
       "unavailableTrains" : [
         "【JR】全線 (包括 HARUKA·新快速)",
@@ -796,39 +811,18 @@
         "【私鐵】神戶電鐵・叡山電鐵 等地方私鐵",
         "【GREEN\/特急指定席】除補差額外不適用"
       ],
-      "name" : "關西周遊券",
-      "category" : "private_rail",
       "areas" : [
         "關西"
       ],
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "description" : "2 天；涵蓋關西主要私鐵・市營地鐵・機場\/市區巴士，適合大阪+京都+奈良自由行。",
-          "days" : 2,
-          "price" : 5500
-        },
-        {
-          "description" : "3 天；涵蓋關西主要私鐵・市營地鐵・機場\/市區巴士，適合大阪+京都+奈良自由行。",
-          "days" : 3,
-          "price" : 7000
-        },
-        {
-          "description" : "4 天；涵蓋關西主要私鐵・市營地鐵・機場\/市區巴士，適合大阪+京都+奈良自由行。",
-          "days" : 4,
-          "price" : 8500
-        }
-      ]
+      "company" : "關西交通",
+      "name" : "關西周遊券",
+      "category" : "private_rail",
+      "id" : "kansai_private_pass"
     },
     {
-      "company" : "小田急電鐵",
-      "id" : "hakone_freepass",
-      "file" : {
-        "path" : "箱根周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【私鐵】小田急線 (新宿〜小田原) 往返 1 次 ※可搭 Romancecar 須補特急券",
         "【登山鐵道】箱根登山線 (小田原〜強羅)",
@@ -837,40 +831,40 @@
         "【船舶】箱根海賊觀光船 (桃源台〜箱根町／元箱根) 全航段",
         "【巴士】箱根登山巴士・觀光周遊巴士 指定區域 (小田原〜箱根湯本〜元箱根〜桃源台)"
       ],
+      "file" : {
+        "path" : "箱根周遊券.pdf",
+        "type" : "pdf"
+      },
+      "durations" : [
+        {
+          "price" : 6100,
+          "days" : 2,
+          "description" : "2 天；含小田急往返 1 次 + 箱根 6 大交通工具無限搭乘。"
+        },
+        {
+          "price" : 7000,
+          "days" : 3,
+          "description" : "3 天內容同 2 日券。"
+        }
+      ],
       "unavailableTrains" : [
         "【JR】東海道本線・新幹線",
         "【私鐵】伊豆箱根鐵道・箱根登山巴士區域外",
         "【特急】Romancecar 需另購特急券",
         "【觀光船】芦ノ湖遊覽船 等 非海賊船"
       ],
-      "name" : "箱根周遊券",
-      "category" : "sightseeing",
       "areas" : [
         "箱根"
       ],
       "extensions" : [
 
       ],
-      "durations" : [
-        {
-          "description" : "2 天；含小田急往返 1 次 + 箱根 6 大交通工具無限搭乘。",
-          "days" : 2,
-          "price" : 6100
-        },
-        {
-          "description" : "3 天內容同 2 日券。",
-          "days" : 3,
-          "price" : 7000
-        }
-      ]
+      "company" : "小田急電鐵",
+      "name" : "箱根周遊券",
+      "category" : "sightseeing",
+      "id" : "hakone_freepass"
     },
     {
-      "company" : "富士急行",
-      "id" : "fuji_pass",
-      "file" : {
-        "type" : "pdf",
-        "path" : "富士山周遊券.pdf"
-      },
       "availableTrains" : [
         "【私鐵】富士急行線 (大月〜河口湖) 全線 普通／快速 ※特急富士回遊需補特急券",
         "【巴士】富士急觀光 (紅 Line: 河口湖周遊, 綠 Line: 西湖周遊, 藍 Line: 本栖湖周遊)",
@@ -883,34 +877,34 @@
         "【高速巴士】新宿\/東京〜河口湖 高速巴士",
         "【私鐵】伊豆箱根・御殿場線 等"
       ],
-      "name" : "富士山周遊券",
       "category" : "sightseeing",
-      "areas" : [
-        "富士山"
-      ],
       "extensions" : [
 
       ],
+      "company" : "富士急行",
+      "name" : "富士山周遊券",
       "durations" : [
         {
-          "description" : "2 天；富士急行線 + 富士五湖 Red\/Green\/Blue Bus + 富士山パノラマ Ropeway 無限。",
+          "price" : 5000,
           "days" : 2,
-          "price" : 5000
+          "description" : "2 天；富士急行線 + 富士五湖 Red\/Green\/Blue Bus + 富士山パノラマ Ropeway 無限。"
         },
         {
-          "description" : "3 天內容同 2 日券。",
+          "price" : 6000,
           "days" : 3,
-          "price" : 6000
+          "description" : "3 天內容同 2 日券。"
         }
+      ],
+      "file" : {
+        "path" : "富士山周遊券.pdf",
+        "type" : "pdf"
+      },
+      "id" : "fuji_pass",
+      "areas" : [
+        "富士山"
       ]
     },
     {
-      "company" : "JR東日本",
-      "id" : "nex_round_trip",
-      "file" : {
-        "type" : "pdf",
-        "path" : "NEX東京去回車票.pdf"
-      },
       "availableTrains" : [
         "【特急】Narita Express 往路：成田機場 T1\/T2T3 → 東京・品川・新宿・池袋・澀谷・橫濱・大船 任一站",
         "【特急】Narita Express 回路：上述任一站 → 成田機場 T1\/T2T3 (須在 14 天內使用)",
@@ -922,30 +916,30 @@
         "【京成電鐵】Skyliner 等 私鐵特急",
         "【地鐵／私鐵】全線"
       ],
-      "name" : "N'EX東京去回車票",
-      "areas" : [
-        "東京",
-        "成田機場"
-      ],
       "category" : "jr_regional",
       "extensions" : [
 
       ],
+      "company" : "JR東日本",
+      "name" : "N'EX東京去回車票",
       "durations" : [
         {
           "price" : 5000,
           "days" : 14,
           "description" : "14 天內 Narita Express 指定席 往返一次，可自由選擇市區終點站。"
         }
+      ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "NEX東京去回車票.pdf"
+      },
+      "id" : "nex_round_trip",
+      "areas" : [
+        "東京",
+        "成田機場"
       ]
     },
     {
-      "company" : "JR東日本",
-      "id" : "nagano_niigata_pass",
-      "file" : {
-        "path" : "長野新瀉周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【新幹線】北陸新幹線 (東京〜上越妙高) はくたか・あさま 自由\/指定 4 次",
         "【特急】しらゆき (新潟〜上越妙高) 自由\/指定",
@@ -957,30 +951,30 @@
         "【GREEN\/GranClass】全部",
         "【私鐵】長野電鐵 等"
       ],
-      "name" : "JR東日本周遊券（長野、新瀉）",
-      "areas" : [
-        "長野",
-        "新瀉"
-      ],
       "category" : "jr_regional",
       "extensions" : [
 
       ],
+      "company" : "JR東日本",
+      "name" : "JR東日本周遊券（長野、新瀉）",
       "durations" : [
         {
           "price" : 27000,
           "days" : 5,
           "description" : "5 天；北陸新幹線 東京~上越妙高 + 信越\/越後\/飯山 線等 JR 無限 + 指定席 4 次。"
         }
+      ],
+      "file" : {
+        "path" : "長野新瀉周遊券.pdf",
+        "type" : "pdf"
+      },
+      "id" : "nagano_niigata_pass",
+      "areas" : [
+        "長野",
+        "新瀉"
       ]
     },
     {
-      "company" : "JR北海道",
-      "id" : "hokkaido_pass",
-      "file" : {
-        "type" : "pdf",
-        "path" : "北海道周遊券.pdf"
-      },
       "availableTrains" : [
         "【特急】北斗 (札幌〜函館)",
         "【特急】ライラック・カムイ (札幌〜旭川)",
@@ -996,29 +990,29 @@
         "【私鐵】道南いさりび鐵道・札幌市電 等",
         "【GREEN 車廂】全部"
       ],
-      "name" : "北海道周遊券",
-      "areas" : [
-        "北海道"
-      ],
       "category" : "jr_regional",
       "extensions" : [
 
       ],
+      "company" : "JR北海道",
+      "name" : "北海道周遊券",
       "durations" : [
         {
           "price" : 28000,
           "days" : 6,
           "description" : "6 天；JR 北海道 全線 普通\/快速\/特急 無限 (北海道新幹線除外)。"
         }
+      ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "北海道周遊券.pdf"
+      },
+      "id" : "hokkaido_pass",
+      "areas" : [
+        "北海道"
       ]
     },
     {
-      "company" : "JR東日本・JR西日本",
-      "id" : "hokuriku_arch_pass",
-      "file" : {
-        "path" : "北陸拱型周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【新幹線】北陸新幹線 (東京〜金澤) 自由\/指定 4 次",
         "【特急】Thunderbird (大阪〜金澤) 自由席",
@@ -1032,29 +1026,29 @@
         "【GREEN 車廂】全部",
         "【私鐵・地鐵】全線"
       ],
-      "name" : "北陸拱型周遊券",
-      "areas" : [
-        "北陸"
-      ],
       "category" : "jr_regional",
       "extensions" : [
 
       ],
+      "company" : "JR東日本・JR西日本",
+      "name" : "北陸拱型周遊券",
       "durations" : [
         {
-          "price" : 30000,
           "days" : 7,
-          "description" : "7 天；首都圈→北陸→關西 拱型移動，新幹線 + Thunderbird 自由席 + 在來線無限 (指定席 4 次)。"
+          "description" : "7 天；首都圈→北陸→關西 拱型移動，新幹線 + Thunderbird 自由席 + 在來線無限 (指定席 4 次)。",
+          "price" : 30000
         }
+      ],
+      "file" : {
+        "path" : "北陸拱型周遊券.pdf",
+        "type" : "pdf"
+      },
+      "id" : "hokuriku_arch_pass",
+      "areas" : [
+        "北陸"
       ]
     },
     {
-      "company" : "JR東日本・JR北海道",
-      "id" : "tohoku_south_hokkaido_pass",
-      "file" : {
-        "path" : "東北南北海道周遊券.pdf",
-        "type" : "pdf"
-      },
       "availableTrains" : [
         "【新幹線】東北 (東京〜新青森) Hayabusa\/Hayate\/やまびこ 指定 6 次內",
         "【新幹線】北海道 (新青森〜新函館北斗)",
@@ -1067,30 +1061,30 @@
         "【GREEN\/GranClass】全部",
         "【私鐵】津輕鐵道・道南いさりび鐵道 等"
       ],
-      "name" : "東北、南北海道周遊券",
-      "areas" : [
-        "東北",
-        "北海道南部"
-      ],
       "category" : "jr_regional",
       "extensions" : [
 
       ],
+      "company" : "JR東日本・JR北海道",
+      "name" : "東北、南北海道周遊券",
       "durations" : [
         {
-          "price" : 30640,
           "days" : 6,
-          "description" : "6 天；東北新幹線 東京~新青森 + 北海道新幹線 新青森~新函館北斗 + 東北\/道南 在來線，指定席 6 次。"
+          "description" : "6 天；東北新幹線 東京~新青森 + 北海道新幹線 新青森~新函館北斗 + 東北\/道南 在來線，指定席 6 次。",
+          "price" : 30640
         }
+      ],
+      "file" : {
+        "path" : "東北南北海道周遊券.pdf",
+        "type" : "pdf"
+      },
+      "id" : "tohoku_south_hokkaido_pass",
+      "areas" : [
+        "東北",
+        "北海道南部"
       ]
     },
     {
-      "company" : "JR東日本",
-      "id" : "tokyo_wide_pass",
-      "file" : {
-        "type" : "pdf",
-        "path" : "東京廣域周遊券.pdf"
-      },
       "availableTrains" : [
         "【新幹線】北陸新幹線 (東京〜輕井澤)",
         "【新幹線】東北新幹線 (東京〜那須鹽原)",
@@ -1104,21 +1098,27 @@
         "【GREEN 車廂\/GranClass】全部",
         "【私鐵・地鐵】全線"
       ],
-      "name" : "東京廣域周遊券",
-      "areas" : [
-        "東京",
-        "近郊"
-      ],
       "category" : "jr_regional",
       "extensions" : [
 
       ],
+      "company" : "JR東日本",
+      "name" : "東京廣域周遊券",
       "durations" : [
         {
-          "price" : 15000,
           "days" : 3,
-          "description" : "3 天；首都圈 JR + 新幹線 (東京〜輕井澤\/那須鹽原) + 特急部份自由席 無限搭乘。"
+          "description" : "3 天；首都圈 JR + 新幹線 (東京〜輕井澤\/那須鹽原) + 特急部份自由席 無限搭乘。",
+          "price" : 15000
         }
+      ],
+      "file" : {
+        "type" : "pdf",
+        "path" : "東京廣域周遊券.pdf"
+      },
+      "id" : "tokyo_wide_pass",
+      "areas" : [
+        "東京",
+        "近郊"
       ]
     },
     {
@@ -1149,9 +1149,9 @@
       ],
       "durations" : [
         {
-          "price" : 1600,
           "days" : 1,
-          "description" : "1 天；東京 Metro + 都營地鐵 + 都營巴士 + 都電荒川線 無限次。"
+          "description" : "1 天；東京 Metro + 都營地鐵 + 都營巴士 + 都電荒川線 無限次。",
+          "price" : 1600
         }
       ]
     },
@@ -1183,105 +1183,105 @@
       ],
       "durations" : [
         {
-          "price" : 760,
           "days" : 1,
-          "description" : "1 天；JR 東日本 東京都市圈 在來線 普通\/快速 無限搭乘 (新幹線除外)。"
+          "description" : "1 天；JR 東日本 東京都市圈 在來線 普通\/快速 無限搭乘 (新幹線除外)。",
+          "price" : 760
         }
       ]
     },
     {
+      "company" : "橫濱高速鐵道",
+      "id" : "yokohama_minato_mirai_pass",
+      "file" : {
+        "path" : "橫濱港未來周遊券.pdf",
+        "type" : "pdf"
+      },
+      "availableTrains" : [
+        "【私鐵】みなとみらい線 (橫濱〜元町·中華街) 全線",
+        "【JR】根岸線 (橫濱〜新杉田) 普通\/快速",
+        "【巴士】橫濱市營巴士 (紅鞋號觀光巴士) 指定路段"
+      ],
       "unavailableTrains" : [
         "【JR】東海道本線·橫須賀線 等",
         "【私鐵】京急·相鐵·東急 等",
         "【地鐵】橫濱市營藍線",
         "【新幹線】全線"
       ],
-      "availableTrains" : [
-        "【私鐵】みなとみらい線 (橫濱〜元町·中華街) 全線",
-        "【JR】根岸線 (橫濱〜新杉田) 普通\/快速",
-        "【巴士】橫濱市營巴士 (紅鞋號觀光巴士) 指定路段"
-      ],
-      "id" : "yokohama_minato_mirai_pass",
       "name" : "橫濱港未來周遊券",
-      "durations" : [
-        {
-          "price" : 530,
-          "description" : "1 天；港未來線 + JR 根岸線 橫濱〜新杉田 + 橫濱市營巴士 指定區域。",
-          "days" : 1
-        }
-      ],
-      "extensions" : [
-
-      ],
       "areas" : [
         "橫濱"
       ],
       "category" : "private_rail",
-      "company" : "橫濱高速鐵道",
-      "file" : {
-        "type" : "pdf",
-        "path" : "橫濱港未來周遊券.pdf"
-      }
+      "extensions" : [
+
+      ],
+      "durations" : [
+        {
+          "days" : 1,
+          "description" : "1 天；港未來線 + JR 根岸線 橫濱〜新杉田 + 橫濱市營巴士 指定區域。",
+          "price" : 530
+        }
+      ]
     },
     {
+      "company" : "東京都交通局",
+      "id" : "toden_araki_line_pass",
+      "file" : {
+        "type" : "pdf",
+        "path" : "都電荒川線.pdf"
+      },
+      "availableTrains" : [
+        "【路面電車】都電荒川線 全線"
+      ],
       "unavailableTrains" : [
         "【東京 Metro】9 線",
         "【JR】全線",
         "【新幹線】全線"
       ],
-      "availableTrains" : [
-        "【路面電車】都電荒川線 全線"
-      ],
       "name" : "都電荒川線一日乘車券",
-      "id" : "toden_araki_line_pass",
-      "durations" : [
-        {
-          "price" : 400,
-          "description" : "1 天；都電荒川線 (三ノ輪橋〜早稲田) 無限搭乘。",
-          "days" : 1
-        }
-      ],
-      "extensions" : [
-
-      ],
       "areas" : [
         "東京"
       ],
       "category" : "metro",
-      "company" : "東京都交通局",
-      "file" : {
-        "path" : "都電荒川線.pdf",
-        "type" : "pdf"
-      }
-    },
-    {
-      "unavailableTrains" : [
-        "高鐵"
-      ],
-      "availableTrains" : [
-        "台鐵全線"
-      ],
-      "name" : "測試",
-      "id" : "EDD06358-DE5E-481E-A2DC-83A84755FAA9",
-      "durations" : [
-        {
-          "days" : 2,
-          "price" : 10000,
-          "description" : ""
-        }
-      ],
       "extensions" : [
 
       ],
+      "durations" : [
+        {
+          "days" : 1,
+          "description" : "1 天；都電荒川線 (三ノ輪橋〜早稲田) 無限搭乘。",
+          "price" : 400
+        }
+      ]
+    },
+    {
+      "company" : "Milifix ",
+      "id" : "EDD06358-DE5E-481E-A2DC-83A84755FAA9",
+      "file" : {
+        "path" : "測試.pdf",
+        "type" : "pdf"
+      },
+      "availableTrains" : [
+        "台鐵全線"
+      ],
+      "unavailableTrains" : [
+        "高鐵"
+      ],
+      "name" : "測試",
       "areas" : [
         "台灣"
       ],
       "category" : "Xx",
-      "company" : "Milifix ",
-      "file" : {
-        "type" : "pdf",
-        "path" : "測試.pdf"
-      }
+      "extensions" : [
+
+      ],
+      "durations" : [
+        {
+          "days" : 2,
+          "description" : "",
+          "price" : 10000
+        }
+      ]
     }
   ]
 }
