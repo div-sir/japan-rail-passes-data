@@ -1288,7 +1288,10 @@
       { "days": 5, "price": 17000, "description": "5 天；同上。" }
     ],
     "id": "jr_kyushu_north",
-    "file": { "type": "html", "path": "https://www.jrkyushu.co.jp/english/railpass/railpass.jsp" },
+    "file": { 
+      "type" : "pdf",
+      "path" : "JR九州鐵路周遊券（北部九州）.pdf"
+    },
     "unavailableTrains": [
       "【新幹線】熊本以南",
       "【私鐵／地鐵】全線"
@@ -1309,7 +1312,10 @@
       { "days": 3, "price": 12000, "description": "3 天；大分南端〜宮崎〜鹿兒島＋九州新幹線 熊本〜鹿兒島中央。" }
     ],
     "id": "jr_kyushu_south",
-    "file": { "type": "html", "path": "https://www.jrkyushu.co.jp/english/railpass/railpass.jsp" },
+    "file": { 
+      "type" : "pdf",
+      "path" : "JR九州鐵路周遊券（南部九州）.pdf"
+    },
     "unavailableTrains": [
       "【新幹線】博多〜熊本",
       "【私鐵／地鐵】全線"
@@ -1329,7 +1335,10 @@
       { "days": 5, "price": 16500, "description": "5 天；王寺〜伊勢市〜紀伊勝浦〜和歌山 JR 在來線 + Mie 快速 + 巴士數路線。" }
     ],
     "id": "ise_kumano_wakayama_pass",
-    "file": { "type": "html", "path": "https://global.jr-central.co.jp/en/onlinebooking/" },
+    "file": { 
+      "type" : "pdf",
+      "path" : "伊勢・熊野・和歌山地區觀光周遊券.pdf"
+    },
     "unavailableTrains": [
       "【新幹線】東海道・山陽",
       "【特急】GREEN／私鐵特急"
@@ -1350,7 +1359,10 @@
       { "days": 3, "price": 6500, "description": "3 天；東海道線 熱海〜豐橋 + 富士急巴士 + 駿河灣渡輪等。" }
     ],
     "id": "fuji_shizuoka_mini",
-    "file": { "type": "html", "path": "https://touristpass.jp/en/fuji_shizuoka/" },
+    "file": { 
+      "type": "pdf", 
+      "path": "富士山・靜岡地區 Tourist Pass Mini.pdf" 
+    },
     "unavailableTrains": [
       "【新幹線】全線",
       "【私鐵】大井川鐵道 等"
@@ -1371,7 +1383,10 @@
       { "days": 5, "price": 24000, "description": "5 天；JR 中央線 名古屋〜松本 + 高山本線 名古屋〜富山 + 立山黑部全線 + 4 次特急指定席。" }
     ],
     "id": "alpine_takayama_matsumoto_pass",
-    "file": { "type": "html", "path": "https://touristpass.jp/en/alpine/" },
+    "file": { 
+      "type": "pdf", 
+      "path": "立山黑部・高山・松本地區觀光周遊券.pdf" 
+    },
     "unavailableTrains": [
       "【新幹線】東海道・北陸",
       "【私鐵】富山地方鐵道 Tateyama 以外"
@@ -1395,7 +1410,10 @@
       { "days": 5, "price": 6700, "description": "5 天 Plus；含三重巴士、志摩地區觀光船折扣等。" }
     ],
     "id": "kintetsu_pass",
-    "file": { "type": "html", "path": "https://www.kintetsu.co.jp/foreign/english/ticket/" },
+    "file": { 
+      "type": "pdf", 
+      "path": "近鐵鐵路周遊券.pdf" 
+    },
     "unavailableTrains": [
       "【特急】全線 (需另付特急券)",
       "【JR／私鐵他社】全線"
