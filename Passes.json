@@ -1265,7 +1265,9 @@
       { "days": 7, "price": 26000, "description": "7 天；同上。" }
     ],
     "id": "jr_kyushu_all",
-    "file": { "type": "html", "path": "https://www.jrkyushu.co.jp/english/railpass/railpass.jsp" },
+    "file": { 
+      "type": "pdf", 
+      "path": "JR九州鐵路周遊券（北部九州）.pdf" },
     "unavailableTrains": [
       "【新幹線】山陽新幹線 (博多〜小倉)",
       "【私鐵／地鐵】全線",
