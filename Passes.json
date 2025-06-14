@@ -1259,6 +1259,33 @@
         "【JR】全線",
         "【新幹線】全線"
       ]
-    }
+    },
+    {
+    "id": "jr_regional",
+    "name": "JR 九州鐵路周遊券（全九州）",
+    "category": "jr_regional",
+    "areas": ["九州全境"],
+    "company": "JR九州",
+    "durations": [
+      { "days": 3, "price": 22000, "description": "3 天；JR 九州 全線 + 九州新幹線 博多〜鹿兒島中央 + 西九州新幹線 自由席。" },
+      { "days": 5, "price": 24000, "description": "5 天；JR 九州 全線 + 九州新幹線 博多〜鹿兒島中央 + 西九州新幹線 自由席。" },
+      { "days": 7, "price": 26000, "description": "7 天；JR 九州 全線 + 九州新幹線 博多〜鹿兒島中央 + 西九州新幹線 自由席。" }
+    ],
+    "file": { 
+      "type": "pdf", 
+      "path": "JR九州鐵路周遊券（北部九州）.pdf" 
+    },
+    "unavailableTrains": [
+      "【新幹線】山陽新幹線 (博多〜小倉)",
+      "【私鐵／地鐵】全線",
+      "【JR BUS】全線"
+    ],
+    "availableTrains": [
+      "【九州新幹線】博多〜鹿兒島中央 (Mizuho／Sakura／Tsubame)",
+      "【西九州新幹線】武雄温泉〜長崎 (Kamome)",
+      "【JR九州 特急】全線 (含 Sonic・Yufuin no Mori・Kamome 等)",
+      "【JR九州 在來線】全線 普通／快速"
+    ]
+  }
   ]
 }
