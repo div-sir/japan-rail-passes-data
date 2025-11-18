@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0",
+  "lastUpdated": "2025-01-XX",
+  "coupons": [
+    {
+      "id": "UUID",
+      "store": "BicCamera",
+      "image": "BicCamera折價券.jpg"
+    },
+    {
+      "id": "UUID",
+      "store": "堂吉訶德 Don Quijote",
+      "image": "堂吉訶德折價券.jpg"
+    }
+  ]
+}
