@@ -1,16 +1,86 @@
 {
   "schemaVersion": "1.0",
-  "lastUpdated": "2025-01-XX",
+  "lastUpdated": "2025-01-15T00:00:00Z",
   "coupons": [
     {
-      "id": "UUID",
+      "id": "550e8400-e29b-41d4-a716-446655440000",
       "store": "BicCamera",
       "image": "BicCamera折價券.jpg"
     },
     {
-      "id": "UUID",
+      "id": "550e8400-e29b-41d4-a716-446655440001",
       "store": "堂吉訶德 Don Quijote",
       "image": "堂吉訶德折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "store": "松本清 藥妝 Matsumoto Kiyoshi",
+      "image": "松本清藥妝折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "store": "札幌藥妝 Sapporo Drug Store",
+      "image": "札幌藥妝折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "store": "成田機場免稅店 Fa-So-La",
+      "image": "成田機場免稅店Fa-So-La折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "store": "成田機場免稅店 Japan Duty Free",
+      "image": "成田機場免稅店Japan-Duty-Free折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "store": "西武百貨 Seibu、SOGO百貨",
+      "image": "西武百貨Seibu Hyakkaten、SOGO百貨折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "store": "京王百貨 新宿店 Keio",
+      "image": "京王百貨新宿店折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "store": "東武百貨 池袋店 Tobu Ikebukuro",
+      "image": "東武百貨池袋店Tobu Ikebukuro折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "store": "名鐵百貨 Meitetsu Department Store",
+      "image": "名鐵百貨折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-44665544000a",
+      "store": "近鐵百貨 Kintetsu",
+      "image": "近鐵百貨折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-44665544000b",
+      "store": "洋服の青山 Aoyama",
+      "image": "洋服の青山折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-44665544000c",
+      "store": "科摩思 COSMOS",
+      "image": "科摩思COSMOS折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-44665544000d",
+      "store": "愛電王 Edion",
+      "image": "愛電王Edion折價券 .jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-44665544000e",
+      "store": "鶴羽藥妝 Tsuruha Drug",
+      "image": "鶴羽藥妝折價券.jpg"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-44665544000f",
+      "store": "尚都藥妝 Sundrug",
+      "image": "Sundrug藥妝折價券.jpg"
     }
   ]
 }
